@@ -1,8 +1,10 @@
 package routes
 
 import (
-	"fiber"
 	"time"
+
+	"github.com/gofiber/fiber/v2"
+	"github.com/samarth-namdeo/SwiftLink/helpers"
 )
 
 type request struct {
